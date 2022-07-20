@@ -15,6 +15,7 @@ Type      Source
 SSH         My IP
 HTTP       Anywhere IPv4
 HTTP       Anywhere IPv6
+click on "create security group"
 
 Step 4 (Create a Launch Template)
 Create Launch template , give it a name and description you prefer.
@@ -32,6 +33,7 @@ systemctl start httpd
 systemctl enable httpd
 echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 echo "Healthy" > /var/www/html/health.html
+click on "create launch template"
 
 Step 5 (Documentation)
 Modify and update every step you took to achieve the lab, that was not captured in the lab instruction in your local repo Lab2.txt file and save.
